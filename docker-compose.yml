@@ -1,7 +1,7 @@
 version: '3.7'
 
 services:
-  web:
+  api:
     image: jonathan92/corner_api:part1
     build: ./api
     env_file: .env
